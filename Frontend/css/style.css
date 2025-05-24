@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', 'Roboto', Arial, sans-serif;
+    background-color: #ebebeb;
+}
+.borda-teste{
+    border: 1px solid red;
+}
+/*Navbar*/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 200px 15px 200px;
+    height: 50px;
+    background-color: #7d49ce;
+    gap: 10px;
+}
+#navbar-opcoes, #navbar-usuario{
+    flex: 1;
+}
+#navbar-logo{
+    width: 120px;
+}
+#navbar-opcoes{
+    display: flex;
+    justify-content: left;
+}
+#navbar-usuario{
+    display: flex;
+    justify-content: flex-end;
+}
+#menu-opcoes, #menu-usuario{
+    display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+#menu-opcoes a, #menu-usuario a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+} 
+#navbar-logo img{
+    width: 50px;
+    height: auto;
+}
+#menu-usuario img{
+    width: 30px;
+    height: 30px;
+}
+/*Main*/
+#promocao{
+    width: 100%;
+    height: 450px;
+    background-image: url("../imgs/bg-promocao.png");
+    background-color: #b3effd;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#promocao-card{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    margin: 90px 10px 10px 300px;
+}
+#promocao-card>h2{
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+#promocao-card>p{
+    margin-top: 30px;
+}
+
+
+
+.campo-exposicao{
+    width: 83%;
+    height: auto;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+.campo-exposicao-nome{
+    font-size: 20px;
+    font-weight: bold;
+}
+.campo-exposicao-produtos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+.card-servico{
+    width: 49%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 7px;
+}
+.card-servico>img{
+    width: 100%;
+    height: 200px;
+}
+.card-servico>p{
+    margin-top: 2px;
+    color: black;
+}
+.card-servico-nome{
+    font-size: 20px;
+}
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 200px 30px 200px;
+    background-color: #7d49ce;
+    color: white;
+    gap: 40px;
+}
+
+#footer-contatos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+#footer-contatos li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+#footer-contatos img {
+    width: 24px;
+    height: 24px;
+}
+  
+#footer-sobre {
+    max-width: 400px;
+}
+  
+#footer-sobre h5 {
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+  
+#footer-sobre p {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 14px;
+}
+  
